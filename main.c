@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #define F_CPU 16000000UL
 #include <util/delay.h>
-volatile int deger;
+volatile uint8_t deger;
 int main(void)
 {
 	DDRB &= 0B00111100; //b2-b5 giris
